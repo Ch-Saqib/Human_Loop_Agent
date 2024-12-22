@@ -1,0 +1,11 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "student_support_agent": "./src/student_support_agent/graph.py:panaai_student_support",
+    "supervisor_agent": "./src/supervisor_agent/graph.py:supervisor_graph",
+    "student_profile_agent": "./src/student_profile_agent/graph.py:profile_graph",
+    "mind_rag_agent": "./src/mind_rag/graph.py:mind_rag_agent",
+    "level_checker_agent": "./src/level_checker_agent/graph.py:graph"
+  },
+  "env": ".env"
+}
